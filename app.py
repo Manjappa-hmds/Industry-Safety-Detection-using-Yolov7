@@ -1,11 +1,6 @@
 import sys,os
 from isd.pipeline.training_pipeline import TrainPipeline
 
-obj=TrainPipeline()
-obj.run_pipeline()
-
-
-'''
 from isd.exception import isdException
 from isd.utils.main_utils import decodeImage, encodeImageIntoBase64
 from flask import Flask, request, jsonify, render_template,Response
@@ -67,4 +62,4 @@ if __name__ == "__main__":
     clApp = ClientApp()
     app.run(host="0.0.0.0", port=8080)
     
-'''
+
