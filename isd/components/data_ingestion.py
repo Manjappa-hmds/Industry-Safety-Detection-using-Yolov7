@@ -9,7 +9,7 @@ from isd.entity.artifacts_entity import DataIngestionArtifact
 from isd.configuration.s3_operations import S3Operation
 from isd.constant.training_pipeline import *
 
-
+#class
 class DataIngestion:
     def __init__(self, data_ingestion_config: DataIngestionConfig = DataIngestionConfig()):
         try:
